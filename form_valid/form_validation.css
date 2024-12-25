@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(193, 131, 56);
+}
+#myform{
+    background: linear-gradient(270deg, rgb(64, 209, 222),rgba(236, 147, 74, 0.889) );
+}
+input{
+
+    width:20%;
+    text-align: center;
+}
