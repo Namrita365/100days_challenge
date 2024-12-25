@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Frank Ruhl Libre", serif;
+
+}
+/* body{
+    margin:0;
+    padding:0;
+    display: flex;
+
+}
+.res
+{
+background-color: aqua;
+margin-left:20px;
+padding:50px;
+margin-top:90px;
+}
+.res_calc
+{
+    margin-top:90px;
+    margin-left:80px;
+    background-color: rgb(210, 226, 240);
+    padding:50px;
+    margin-left:0px;
+   
+
+} */
+body{
+    display:grid;
+    place-content:center;
+
+}
+.container{
+    background-color:#ecf0f1;
+    width:700px;
+    height:400px;
+    box-shadow:0px 10px 10px 0px;
+    border-radius:15px;
+}
+.left-box{
+    position:absolute;
+    width:250px;
+    height:400px;
+    background-color: #00d2d3;
+    border-radius:7px;
+}
+.left-box h1{
+    margin-top:50px;
+    text-align:center;
+    font-size:2.5rem;
+    font-weight:500;
+    letter-spacing:2px;
+}
+.calc
+{
+text-align: center;
+display:grid;
+place-content:center;
+min-height:30vh;
+}
+.calc h2{
+font-size:1.3rem;
+font-weight: 500;
+margin:20px 0px;
+}
+.right-box .right-content {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    min-width:62vw;
+    min-height:50vh;
+}
+.right-content input{
+    margin:10px 0px;
+    width:175px;
+    height:30px;
+    padding:10px;
+    outline:none;
+    border:0;
+    border-radius:30px;
+    font-size:0.9rem;
+    
+}
+.right-content button{
+    height:40px;
+    width:150px;
+    margin-top:10px;
+    padding:0px 10px;
+    background-color:#00d2d3;
+    border:0;
+    outline:none;
+    font-size:medium;
+    font-weight: 900;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.RESULT{
+    position:absolute;
+    bottom:330px;
+    width:250px;
+    height:50px;
+    background-color:#000c0c42;
+    border-radius: 0px 0px 0px 10px;
+    
+}
+
+.RESULT h2{
+    text-align:center;
+    line-height:50px;
+    font-size:1.3rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+
+}
